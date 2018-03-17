@@ -8,5 +8,9 @@ python:
 install: pip install tox-travis
 
 script:
+# Add this test command to make the build
+# pass for now until the checks are added
+# in this repo.
+   - python --version
 #  - tox -e coverage
 #  - tox -e pep8
